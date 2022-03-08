@@ -3,7 +3,8 @@
   background-image: linear-gradient(180deg, #000000 0%, #4D4D4D 100%);
   min-height: 1000vh;
   height: auto;
-  padding: 0
+  padding: 0;
+  padding-bottom: 400px;
 }
 
 .App-logo {
@@ -39,6 +40,18 @@
   width: 1000px;
   height: 1000px;
   opacity: 0.2;
+}
+
+div.react-3d-carousel div.slider-container div.slider-content div.slider-single div.slider-single-content {
+  box-shadow: none;
+}
+
+.preactive > .slider-single-content > div > p {
+  display: none;
+}
+
+.proactive > .slider-single-content > div > p {
+  display: none;
 }
 
 .css-n4cq1w {
