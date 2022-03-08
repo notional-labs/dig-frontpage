@@ -24,6 +24,16 @@
   z-index: 2;
 }
 
+.logo {
+  filter: grayscale(100%);
+}
+
+.logo:hover {
+  animation-name: faded;
+  animation-duration: 0.5s;
+  filter: grayscale(0%)
+}
+
 .effect {
   background: radial-gradient(circle farthest-side, #EEC13F 0%, rgba(0, 0, 0, 0) 100%);
   width: 1000px;
@@ -62,5 +72,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes faded {
+  from {
+    filter: grayscale(100%);
+  }
+  to {
+    filter: grayscale(0%);
   }
 }
