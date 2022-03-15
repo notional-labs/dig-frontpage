@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "@fontsource/montserrat";
 import "antd/dist/antd.css";
+import "aos/dist/aos.css"
 
 ReactDOM.render(
   <React.StrictMode>

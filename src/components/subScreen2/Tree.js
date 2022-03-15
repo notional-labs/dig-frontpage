@@ -6,23 +6,34 @@ import thai from '../../assets/img/thai.png'
 import cayman from '../../assets/img/cayman.png'
 import ukraine from '../../assets/img/ukraine.png'
 import vietnam from '../../assets/img/vietnam.png'
+import aos from 'aos'
+import { useEffect } from 'react'
 
 const TreeGraph = ({ }) => {
+
+    useEffect(() => {
+        aos.init({
+            duration: 1000
+        })
+    }, [])
+
     return (
         <div style={{
-           padding: '0em 150px 0em 150px'
+            padding: '0em 150px 0em 150px'
         }}>
             <Tree
                 lineWidth={'2px'}
                 lineHeight={'130px'}
                 lineColor={'#FFAC38'}
                 lineBorderRadius={'10px'}
-                label={<div style={{
-                    border: 'solid 1px #FFAC38',
-                    padding: 20,
-                    borderRadius: '50%',
-                    display: 'inline-block'
-                }}>
+                label={<div
+                    data-aos="slide-down"
+                    style={{
+                        border: 'solid 1px #FFAC38',
+                        padding: 20,
+                        borderRadius: '50%',
+                        display: 'inline-block'
+                    }}>
                     <Image src={dig}
                         preview={false}
                         width={200}
@@ -34,12 +45,15 @@ const TreeGraph = ({ }) => {
                 </div>}
             >
                 <TreeNode label={<div >
-                    <div style={{
-                        border: 'solid 1px #FFAC38',
-                        padding: 20,
-                        borderRadius: '50%',
-                        display: 'inline-block'
-                    }}>
+                    <div
+                        data-aos="zoom-in"
+                        data-aos-delay="500"
+                        style={{
+                            border: 'solid 1px #FFAC38',
+                            padding: 20,
+                            borderRadius: '50%',
+                            display: 'inline-block'
+                        }}>
                         <Image src={uk}
                             preview={false}
                             width={170}
@@ -65,6 +79,7 @@ const TreeGraph = ({ }) => {
                         paddingTop: '1em',
                         paddingBottom: '1em',
                         fontSize: '16px',
+                        border: 'none'
                     }}>
                         View
                     </button>
@@ -72,12 +87,15 @@ const TreeGraph = ({ }) => {
 
                 </TreeNode>
                 <TreeNode label={<div>
-                    <div style={{
-                        border: 'solid 1px #FFAC38',
-                        padding: 20,
-                        borderRadius: '50%',
-                        display: 'inline-block'
-                    }}>
+                    <div
+                        data-aos="zoom-in"
+                        data-aos-delay="1000"
+                        style={{
+                            border: 'solid 1px #FFAC38',
+                            padding: 20,
+                            borderRadius: '50%',
+                            display: 'inline-block'
+                        }}>
                         <Image src={thai}
                             preview={false}
                             width={170}
@@ -103,6 +121,7 @@ const TreeGraph = ({ }) => {
                         paddingTop: '1em',
                         paddingBottom: '1em',
                         fontSize: '16px',
+                        border: 'none'
                     }}>
                         View
                     </button>
@@ -110,12 +129,15 @@ const TreeGraph = ({ }) => {
 
                 </TreeNode>
                 <TreeNode label={<div>
-                    <div style={{
-                        border: 'solid 1px #FFAC38',
-                        padding: 20,
-                        borderRadius: '50%',
-                        display: 'inline-block'
-                    }}>
+                    <div
+                        data-aos="zoom-in"
+                        data-aos-delay="1500"
+                        style={{
+                            border: 'solid 1px #FFAC38',
+                            padding: 20,
+                            borderRadius: '50%',
+                            display: 'inline-block'
+                        }}>
                         <Image src={cayman}
                             preview={false}
                             width={170}
@@ -141,6 +163,7 @@ const TreeGraph = ({ }) => {
                         paddingTop: '1em',
                         paddingBottom: '1em',
                         fontSize: '16px',
+                        border: 'none'
                     }}>
                         View
                     </button>
@@ -148,12 +171,15 @@ const TreeGraph = ({ }) => {
 
                 </TreeNode>
                 <TreeNode label={<div>
-                    <div style={{
-                        border: 'solid 1px #FFAC38',
-                        padding: 20,
-                        borderRadius: '50%',
-                        display: 'inline-block'
-                    }}>
+                    <div
+                        data-aos="zoom-in"
+                        data-aos-delay="2000"
+                        style={{
+                            border: 'solid 1px #FFAC38',
+                            padding: 20,
+                            borderRadius: '50%',
+                            display: 'inline-block'
+                        }}>
                         <Image src={ukraine}
                             preview={false}
                             width={170}
@@ -179,6 +205,7 @@ const TreeGraph = ({ }) => {
                         paddingTop: '1em',
                         paddingBottom: '1em',
                         fontSize: '16px',
+                        border: 'none'
                     }}>
                         View
                     </button>
@@ -186,12 +213,15 @@ const TreeGraph = ({ }) => {
 
                 </TreeNode>
                 <TreeNode label={<div>
-                    <div style={{
-                        border: 'solid 1px #FFAC38',
-                        padding: 20,
-                        borderRadius: '50%',
-                        display: 'inline-block'
-                    }}>
+                    <div
+                        data-aos="zoom-in"
+                        data-aos-delay="2500"
+                        style={{
+                            border: 'solid 1px #FFAC38',
+                            padding: 20,
+                            borderRadius: '50%',
+                            display: 'inline-block'
+                        }}>
                         <Image src={vietnam}
                             preview={false}
                             width={170}
@@ -217,6 +247,7 @@ const TreeGraph = ({ }) => {
                         paddingTop: '1em',
                         paddingBottom: '1em',
                         fontSize: '16px',
+                        border: 'none'
                     }}>
                         View
                     </button>

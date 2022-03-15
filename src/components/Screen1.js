@@ -1,5 +1,7 @@
 import title from '../assets/img/title.png'
-import { Image } from 'antd'
+import { Image, Button } from 'antd'
+import aos from 'aos'
+import { useEffect } from 'react'
 
 const style = {
     container: {
@@ -14,14 +16,23 @@ const style = {
         fontWeight: 400,
         fontSize: '20px',
         borderRadius: '10px',
-        margin: '10px'
+        margin: '10px',
+        cursor: 'pointer'
     }
 }
 
-const Screen1 = ({ }) => {
+const Screen1 = ({}) => {
+
+    useEffect(() => {
+        aos.init({
+            duration: 1000
+        })
+    }, [])
+
     return (
         <div style={style.container}>
             <Image
+                data-aos="fade-down"
                 src={title}
                 width={600}
                 preview={false}
@@ -49,12 +60,12 @@ const Screen1 = ({ }) => {
                 marginTop: '50px'
             }}>
                 <a href="https://app.digchain.org/" target={'_blank'}>
-                    <button style={style.button}>
+                    <button style={style.button} className="hover-button">
                         Open dApp
                     </button>
                 </a>
                 <a href="https://github.com/notional-labs/dig/blob/master/docs/whitepaper.md" target={'_blank'}>
-                    <button style={style.button}>
+                    <button style={style.button} className="hover-button">
                         White paper
                     </button>
                 </a>

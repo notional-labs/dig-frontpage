@@ -3,54 +3,32 @@ import icon from '../../assets/img/roadmap2.png'
 import line from '../../assets/img/line.png'
 import shadow from '../../assets/img/shadow.png'
 import { Image } from 'antd'
-import useWindowDimensions from '../../utils/getWindowDimension'
 import { useEffect, useState } from 'react'
+import aos from 'aos'
 
 const Roadmap = ({ }) => {
-    const [preDimension, setPreDimension] = useState({
-        width: window.innerWidth,
-        height: window.innerHeight
-    })
-
-    const [windowDimenion, detectHW] = useState({
-        newWidth: window.innerWidth,
-        newHeight: window.innerHeight,
-    })
-
-    const detectSize = () => {
-        setPreDimension({
-            width: windowDimenion.newWidth,
-            height: windowDimenion.newHeight
-        })
-        detectHW({
-            newWidth: window.innerWidth,
-            newHeight: window.innerHeight,
-        })
-    }
 
     useEffect(() => {
-        window.addEventListener('resize', detectSize)
-
-        return () => {
-            window.removeEventListener('resize', detectSize)
-        }
-    }, [windowDimenion])
-
-    console.log(windowDimenion.newHeight / preDimension.height * 4500)
+        aos.init({
+            duration: 1000
+        })
+    }, [])
 
     return (
-        <div style={{ height: '1000px' }}>
+        <div style={{ position: 'relative', maxWidth: '1903px', width: 'auto', margin: 'auto' }}>
             <div style={{
                 position: 'relative',
                 display: 'inline',
             }}>
-                <Image src={roadmap} preview={false} width={'100%'} />
-                <div style={{
-                    position: 'absolute',
-                    maxWidth: '15%',
-                    top: `-4500%`,
-                    left: `10%`
-                }}>
+                <Image src={roadmap} preview={false} />
+                <div
+                    data-aos="fade"
+                    style={{
+                        position: 'absolute',
+                        maxWidth: '15%',
+                        top: `-4700%`,
+                        left: `10%`
+                    }}>
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '24px',
@@ -87,12 +65,15 @@ const Roadmap = ({ }) => {
                         left: '-40px'
                     }} />
                 </div>
-                <div style={{
-                    position: 'absolute',
-                    maxWidth: '15%',
-                    top: `-3500%`,
-                    left: `25%`
-                }}>
+                <div
+                    data-aos="fade"
+                    data-aos-delay="500"
+                    style={{
+                        position: 'absolute',
+                        maxWidth: '15%',
+                        top: `-3300%`,
+                        left: `25%`
+                    }}>
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '24px',
@@ -129,12 +110,15 @@ const Roadmap = ({ }) => {
                         left: '-40px'
                     }} />
                 </div>
-                <div style={{
-                    position: 'absolute',
-                    maxWidth: '15%',
-                    top: `-3800%`,
-                    left: `40%`
-                }}>
+                <div
+                    data-aos="fade"
+                    data-aos-delay="1000"
+                    style={{
+                        position: 'absolute',
+                        maxWidth: '15%',
+                        top: `-3800%`,
+                        left: `40%`
+                    }}>
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '24px',
@@ -171,12 +155,15 @@ const Roadmap = ({ }) => {
                         left: '-40px'
                     }} />
                 </div>
-                <div style={{
-                    position: 'absolute',
-                    maxWidth: '15%',
-                    top: `-4300%`,
-                    left: `55%`
-                }}>
+                <div
+                    data-aos="fade"
+                    data-aos-delay="1500"
+                    style={{
+                        position: 'absolute',
+                        maxWidth: '15%',
+                        top: `-4300%`,
+                        left: `55%`
+                    }}>
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '24px',
@@ -213,12 +200,15 @@ const Roadmap = ({ }) => {
                         left: '-40px'
                     }} />
                 </div>
-                <div style={{
-                    position: 'absolute',
-                    maxWidth: '13%',
-                    top: `-3500%`,
-                    left: `70%`
-                }}>
+                <div
+                    data-aos="fade"
+                    data-aos-delay="2000"
+                    style={{
+                        position: 'absolute',
+                        maxWidth: '13%',
+                        top: `-3500%`,
+                        left: `70%`
+                    }}>
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '24px',

@@ -3,8 +3,18 @@ import grid1 from '../../assets/img/grid1.png'
 import grid2 from '../../assets/img/grid2.png'
 import grid3 from '../../assets/img/grid3.png'
 import grid4 from '../../assets/img/grid4.png'
+import aos from 'aos'
+import { useEffect } from 'react'
+
 
 const Grid = ({ }) => {
+
+    useEffect(() => {
+        aos.init({
+            duration: 1000
+        })
+    }, [])
+
     return (
         <div style={{
             display: 'inline-block',
@@ -19,7 +29,10 @@ const Grid = ({ }) => {
                 gridColumnGap: '200px'
             }}>
                 <div>
-                    <Image src={grid1} preview={false} />
+                    <Image
+                        data-aos="fade-left"
+                        src={grid1}
+                        preview={false} />
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '35px',
@@ -39,7 +52,11 @@ const Grid = ({ }) => {
                     </p>
                 </div>
                 <div>
-                    <Image src={grid2} preview={false} />
+                    <Image
+                        data-aos="fade-left"
+                        data-aos-delay="500"
+                        src={grid2}
+                        preview={false} />
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '35px',
@@ -58,7 +75,11 @@ const Grid = ({ }) => {
                     </p>
                 </div>
                 <div>
-                    <Image src={grid3} preview={false} />
+                    <Image
+                        data-aos="fade-left"
+                        data-aos-delay="1000"
+                        src={grid3}
+                        preview={false} />
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '35px',
@@ -77,7 +98,11 @@ const Grid = ({ }) => {
                     </p>
                 </div>
                 <div>
-                    <Image src={grid4} preview={false} />
+                    <Image
+                        data-aos="fade-left"
+                        data-aos-delay="1500"
+                        src={grid4}
+                        preview={false} />
                     <p style={{
                         color: '#EEC13F',
                         fontSize: '35px',

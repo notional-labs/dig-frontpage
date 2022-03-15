@@ -1,18 +1,23 @@
 
-const Effect = ({x, y}) => {
+const Effect = ({x, y, radius, opacity}) => {
     const style = {
         div: {
             position: 'absolute',
-            zIndex: 1,
-            left: `${x}px`,
-            top: `${y}px`,
-            width: '100%' 
+            zIndex: 0,
+            left: `${x}%`,
+            top: `${y}%`,
+            width: '100%',
+        },
+        effect: {
+            width: `${radius}px`,
+            height: `${radius}px`, 
+            opacity: opacity
         }
     }
      
     return (
         <div style={style.div}>
-            <div className="effect" >
+            <div className="effect" style={style.effect}>
 
             </div>
         </div>

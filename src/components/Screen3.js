@@ -1,17 +1,28 @@
 import { Image } from "antd"
 import icon from '../assets/img/vector2.png'
 import Roadmap from "./subScreen3/Roadmap"
+import aos from 'aos'
+import { useEffect } from 'react'
 
-const Screen3 = ({}) => {
-    return(
+const Screen3 = ({ }) => {
+
+    useEffect(() => {
+        aos.init({
+            duration: 1000
+        })
+    }, [])
+
+    return (
         <div>
-            <div style={{
-                marginTop: '300px',
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center',
-                marginBottom: '400px'
-            }}>
+            <div
+                data-aos="fade"
+                style={{
+                    marginTop: '300px',
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    marginBottom: '400px'
+                }}>
                 <p style={{
                     fontWeight: 700,
                     fontSize: '100px',
@@ -27,7 +38,7 @@ const Screen3 = ({}) => {
                         marginTop: '40px'
                     }} />
             </div>
-            <Roadmap/>
+            <Roadmap />
         </div>
     )
 }

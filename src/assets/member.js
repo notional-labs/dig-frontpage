@@ -13,195 +13,355 @@ import { Image } from 'antd';
 export const members = [
     (
         <div>
-            <Image src={adam} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                Adam Chaplin
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                CEO OF DEFI FOR YOU AND CO-FOUNDER OF DIG
-            </p>
+                <Image src={adam} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left',
+                }}>
+                    Adam Chaplin
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '20px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                }}>
+                    CEO OF DEFI FOR YOU AND CO-FOUNDER OF DIG
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Founder and CEO of DeFi For You, Adam Chaplin is also the founder of Dig Chain.
+                </p>
+            </div>
         </div>
     ), (
         <div>
-            <Image src={jacob} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                Jacob Gadikian
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                CHIEF ENGINEER AND CEO OF NOTIONAL
-            </p>
+                <Image src={jacob} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left',
+                }}>
+                    Jacob Gadikian
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                }}>
+                    CHIEF ENGINEER AND CEO OF NOTIONAL
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Jacob Gadikian is the brains behind the engineering of Dig Chain. Jacob is responsible for designing and deploying Dig Chain in the Cosmos ecosystem
+                </p>
+            </div>
         </div>
     ), (
         <div>
-            <Image src={khanh} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                KHANH NGUYEN
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                LEAD ENGINEER
-            </p>
+                <Image src={khanh} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    KHANH NGUYEN
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    LEAD ENGINEER
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Khanh is responsible for assisting in the development and deployment of Dig Chain. He single-handedly built Notional's dev team.
+                </p>
+            </div>
         </div>
     ), (
         <div>
-            <Image src={ricardo} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                RICARDO FERREIRA
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                COMMUNITY AND OPERATIONS
-            </p>
+                <Image src={ricardo} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    RICARDO FERREIRA
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    COMMUNITY AND OPERATIONS
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Ricardo is responsible for managing and growing the Dig Chain community. He takes his experience from Blurt and other projects to help oversee ops for Dig.
+                </p>
+            </div>
         </div>
     ), (
         <div>
-            <Image src={billy} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                William Gray
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
+                <Image src={billy} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    William Gray
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    CHIEF MARKETING OFFICER
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    William Gray is responsible for managing the marketing of Dig Chain and DeFi For You, spreading the word about the projects globally.
+                </p>
+            </div>
+        </div >
+    ), (
+        <div>
+            <div style={{
+                width: '500px'
             }}>
-                CHIEF MARKETING OFFICER
-            </p>
+                <Image src={long} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    Long Mai Gia
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    LEAD INFRASTRUCTURE
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Long runs Notional's Infrastructure
+                </p>
+            </div>
         </div>
     ), (
         <div>
-            <Image src={long} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                Long Mai Gia
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                LEAD INFRASTRUCTURE
-            </p>
+                <Image src={son} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    Son Trinh
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    BLOCKCHAIN ENGINEER
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Son is a very talented blockchain engineer.
+                </p>
+            </div>
         </div>
     ), (
         <div>
-            <Image src={son} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                Son Trinh
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                BLOCKCHAIN ENGINEER
-            </p>
-        </div>
-    ), (
-        <div>
-            <Image src={vuong} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
-            }}>
-                Vuong Nguyen
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                BLOCKCHAIN ENGINEER
-            </p>
+                <Image src={vuong} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    Vuong Nguyen
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    BLOCKCHAIN ENGINEER
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Vuong is responsible for blockchain development tasks at Notional.
+                </p>
+            </div>
         </div>
     ),
     (
         <div>
-            <Image src={minh} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                Minh Vu Le Nhat
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                SERVER TECHNICIAN ANDCUSTOMER ENGINEER
-            </p>
+                <Image src={minh} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    Minh Vu Le Nhat
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    SERVER TECHNICIAN ANDCUSTOMER ENGINEER
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Minh is responsible for connecting Notional with customers and partners.
+                </p>
+            </div>
         </div>
     ),
     (
         <div>
-            <Image src={vinh} width={500} preview={false} />
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 700,
-                marginTop: '20px'
+            <div style={{
+                width: '500px'
             }}>
-                Vinh Nguyen
-            </p>
-            <p style={{
-                color: '#EEC13F',
-                fontSize: '24px',
-                fontWeight: 400
-            }}>
-                PROJECT MANAGER
-            </p>
+                <Image src={vinh} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    Vinh Nguyen
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    PROJECT MANAGER
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Vinh is the project manager.
+                </p>
+            </div>
         </div>
     ),
 ]
