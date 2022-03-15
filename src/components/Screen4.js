@@ -4,16 +4,27 @@ import osmosis from '../assets/img/osmosis.png'
 import juno from '../assets/img/juno.png'
 import notional from '../assets/img/notional.png'
 import notional2 from '../assets/img/notional2.png'
+import aos from 'aos'
+import { useEffect } from 'react'
 
 const Screen4 = ({ }) => {
+
+    useEffect(() => {
+        aos.init({
+            duration: 2000
+        })
+    }, [])
+
     return (
         <div>
-            <div style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center',
-                marginBottom: '200px'
-            }}>
+            <div
+                data-aos="fade"
+                style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    marginBottom: '200px'
+                }}>
                 <p style={{
                     fontWeight: 'bold',
                     fontSize: '100px',

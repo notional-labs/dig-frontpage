@@ -23,6 +23,7 @@ const Roadmap = ({ }) => {
                 <Image src={roadmap} preview={false} />
                 <div
                     data-aos="fade"
+                    data-aos-delay="1000"
                     style={{
                         position: 'absolute',
                         maxWidth: '15%',
@@ -67,7 +68,7 @@ const Roadmap = ({ }) => {
                 </div>
                 <div
                     data-aos="fade"
-                    data-aos-delay="500"
+                    data-aos-delay="1500"
                     style={{
                         position: 'absolute',
                         maxWidth: '15%',
@@ -112,7 +113,7 @@ const Roadmap = ({ }) => {
                 </div>
                 <div
                     data-aos="fade"
-                    data-aos-delay="1000"
+                    data-aos-delay="2000"
                     style={{
                         position: 'absolute',
                         maxWidth: '15%',
@@ -157,7 +158,7 @@ const Roadmap = ({ }) => {
                 </div>
                 <div
                     data-aos="fade"
-                    data-aos-delay="1500"
+                    data-aos-delay="2500"
                     style={{
                         position: 'absolute',
                         maxWidth: '15%',
@@ -202,7 +203,7 @@ const Roadmap = ({ }) => {
                 </div>
                 <div
                     data-aos="fade"
-                    data-aos-delay="2000"
+                    data-aos-delay="3000"
                     style={{
                         position: 'absolute',
                         maxWidth: '13%',
