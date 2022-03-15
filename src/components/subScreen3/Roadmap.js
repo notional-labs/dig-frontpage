@@ -10,7 +10,7 @@ const Roadmap = ({ }) => {
 
     useEffect(() => {
         aos.init({
-            duration: 1000
+            duration: 2000
         })
     }, [])
 
