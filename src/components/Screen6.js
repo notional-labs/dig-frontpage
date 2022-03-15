@@ -20,7 +20,7 @@ const Screen6 = ({ }) => {
             }}>
                 <p style={{
                     fontWeight: 'bold',
-                    fontSize: '120px',
+                    fontSize: '64px',
                     color: '#EEC13F'
                 }}>
                     Follow us on

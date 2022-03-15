@@ -22,7 +22,7 @@ const Grid = ({ }) => {
                     <Image src={grid1} preview={false} />
                     <p style={{
                         color: '#EEC13F',
-                        fontSize: '44px',
+                        fontSize: '35px',
                         fontWeight: 700,
                         display: 'block'
                     }}>
@@ -30,7 +30,7 @@ const Grid = ({ }) => {
                     </p>
                     <p style={{
                         color: '#ffffff',
-                        fontSize: '24px',
+                        fontSize: '20px',
                         fontWeight: 400,
                         display: 'block'
                     }}>
@@ -42,7 +42,7 @@ const Grid = ({ }) => {
                     <Image src={grid2} preview={false} />
                     <p style={{
                         color: '#EEC13F',
-                        fontSize: '44px',
+                        fontSize: '35px',
                         fontWeight: 700,
                         display: 'block'
                     }}>
@@ -50,7 +50,7 @@ const Grid = ({ }) => {
                     </p>
                     <p style={{
                         color: '#ffffff',
-                        fontSize: '24px',
+                        fontSize: '20px',
                         fontWeight: 400,
                         display: 'block'
                     }}>
@@ -61,7 +61,7 @@ const Grid = ({ }) => {
                     <Image src={grid3} preview={false} />
                     <p style={{
                         color: '#EEC13F',
-                        fontSize: '44px',
+                        fontSize: '35px',
                         fontWeight: 700,
                         display: 'block'
                     }}>
@@ -69,7 +69,7 @@ const Grid = ({ }) => {
                     </p>
                     <p style={{
                         color: '#ffffff',
-                        fontSize: '24px',
+                        fontSize: '20px',
                         fontWeight: 400,
                         display: 'block'
                     }}>
@@ -80,7 +80,7 @@ const Grid = ({ }) => {
                     <Image src={grid4} preview={false} />
                     <p style={{
                         color: '#EEC13F',
-                        fontSize: '44px',
+                        fontSize: '35px',
                         fontWeight: 700,
                         display: 'block'
                     }}>
@@ -88,7 +88,7 @@ const Grid = ({ }) => {
                     </p>
                     <p style={{
                         color: '#ffffff',
-                        fontSize: '24px',
+                        fontSize: '20px',
                         fontWeight: 400,
                         display: 'block'
                     }}>

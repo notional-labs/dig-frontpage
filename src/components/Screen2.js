@@ -30,10 +30,10 @@ const Screen2 = ({ }) => {
             <Tree />
             <p style={{
                 fontWeight: 400,
-                fontSize: '24px',
+                fontSize: '20px',
                 color: '#ffffff',
                 marginTop: '300px',
-                padding: 450,
+                padding: 250,
                 paddingTop: 0,
                 paddingBottom: 0
             }}>
@@ -42,9 +42,9 @@ const Screen2 = ({ }) => {
             <br />
             <p style={{
                 fontWeight: 400,
-                fontSize: '24px',
+                fontSize: '20px',
                 color: '#ffffff',
-                padding: 450,
+                padding: 250,
                 paddingTop: 0,
                 paddingBottom: 0
             }}>
@@ -52,9 +52,9 @@ const Screen2 = ({ }) => {
                 <br />
             </p><p style={{
                 fontWeight: 400,
-                fontSize: '24px',
+                fontSize: '20px',
                 color: '#ffffff',
-                padding: 450,
+                padding: 250,
                 paddingTop: 0,
                 paddingBottom: 0
             }}>

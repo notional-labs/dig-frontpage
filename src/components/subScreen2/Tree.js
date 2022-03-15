@@ -10,9 +10,7 @@ import vietnam from '../../assets/img/vietnam.png'
 const TreeGraph = ({ }) => {
     return (
         <div style={{
-            padding: 300,
-            paddingTop: 0,
-            paddingBottom: 0
+           padding: '0em 150px 0em 150px'
         }}>
             <Tree
                 lineWidth={'2px'}

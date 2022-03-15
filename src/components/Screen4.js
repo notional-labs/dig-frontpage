@@ -9,7 +9,6 @@ const Screen4 = ({ }) => {
     return (
         <div>
             <div style={{
-                marginTop: '300px',
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'center',

@@ -12,7 +12,7 @@ const style = {
         padding: '0.7em',
         color: '#ffffff',
         fontWeight: 400,
-        fontSize: '24px',
+        fontSize: '20px',
         borderRadius: '10px',
         margin: '10px'
     }
@@ -36,10 +36,10 @@ const Screen1 = ({ }) => {
             </p>
             <p style={{
                 fontWeight: 400,
-                fontSize: '24px',
+                fontSize: '20px',
                 color: '#ffffff',
                 marginTop: '50px',
-                padding: 450,
+                padding: 250,
                 paddingTop: 0,
                 paddingBottom: 0
             }}>
