@@ -40,18 +40,18 @@ const Screen4 = ({ }) => {
 
             }}>
                 <div className="logo">
-                    <Image src={notional} preview={false} width={100} style={{
+                    <Image src={notional} preview={false} width={150} style={{
                         border: 'solid 1px white',
                         borderRadius: '10px'
                     }} />
                     <span style={{
                         marginLeft: '20px'
                     }}>
-                        <Image src={notional2} preview={false} width={200} />
+                        <Image src={notional2} preview={false} width={300} />
                     </span>
                 </div>
                 <div className="logo">
-                    <Image src={dfi} preview={false} width={400} />
+                    <Image src={dfi} preview={false} width={500} />
                 </div>
             </div>
             <div style={{
@@ -76,10 +76,10 @@ const Screen4 = ({ }) => {
 
             }}>
                 <div className="logo">
-                    <Image src={osmosis} preview={false} width={400} />
+                    <Image src={osmosis} preview={false} width={500} />
                 </div>
                 <div className="logo">
-                    <Image src={juno} preview={false} width={150} />
+                    <Image src={juno} preview={false} width={200} />
                 </div>
             </div>
         </div>

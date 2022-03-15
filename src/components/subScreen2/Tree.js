@@ -27,7 +27,7 @@ const TreeGraph = ({ }) => {
                 lineColor={'#FFAC38'}
                 lineBorderRadius={'10px'}
                 label={<div
-                    data-aos="slide-down"
+                    data-aos="fade-down"
                     style={{
                         border: 'solid 1px #FFAC38',
                         padding: 20,
