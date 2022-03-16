@@ -5,8 +5,10 @@ import { useEffect } from 'react'
 
 const style = {
     container: {
+        position: 'relative',
         textAlign: 'center',
-        paddingTop: '100px'
+        paddingTop: '100px',
+        zIndex: 1
     },
     button: {
         border: 0,
@@ -17,7 +19,7 @@ const style = {
         fontSize: '20px',
         borderRadius: '10px',
         margin: '10px',
-        cursor: 'pointer'
+        cursor: 'pointer',
     }
 }
 
@@ -28,6 +30,15 @@ const Screen1 = ({}) => {
             duration: 2000
         })
     }, [])
+
+    const handleEnter = (e) => {
+        e.target.style.backgroundImage = 'Linear-Gradient(263.6deg, #4D4D4D 0%, #000000 100%)'
+        e.target.style.border = 'solid 2px #EEC13F'
+    }
+
+    const handleLeave = (e) => {
+        e.target.style.backgroundImage = 'Linear-Gradient(#EEC13F 0%, #FFAC38 100%)'
+    }
 
     return (
         <div style={style.container}>
@@ -60,12 +71,12 @@ const Screen1 = ({}) => {
                 marginTop: '50px'
             }}>
                 <a href="https://app.digchain.org/" target={'_blank'}>
-                    <button style={style.button} className="hover-button">
+                    <button style={style.button} className="hover-button" onMouseOver={handleEnter} onMouseLeave={handleLeave}>
                         Open dApp
                     </button>
                 </a>
                 <a href="https://github.com/notional-labs/dig/blob/master/docs/whitepaper.md" target={'_blank'}>
-                    <button style={style.button} className="hover-button">
+                    <button style={style.button} className="hover-button" onMouseOver={handleEnter} onMouseLeave={handleLeave}>
                         White paper
                     </button>
                 </a>

@@ -67,10 +67,10 @@ div.react-3d-carousel div.slider-container div.slider-content div.slider-single 
   margin-top: 0
 }
 
-.hover-button:hover {
+/* .hover-button:hover {
   background-image: Linear-Gradient(260.54deg, #FFFFFF 0%, #000000 96.57%);
   border: solid 2px #EEC13F;
-}
+} */
 
 /* @media only screen and ( min-width: 1519px ) {
   .content {

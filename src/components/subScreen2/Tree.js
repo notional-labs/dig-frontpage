@@ -17,6 +17,15 @@ const TreeGraph = ({ }) => {
         })
     }, [])
 
+    const handleEnter = (e) => {
+        e.target.style.backgroundImage = 'Linear-Gradient(263.6deg, #4D4D4D 0%, #000000 100%)'
+        e.target.style.border = 'solid 2px #EEC13F'
+    }
+
+    const handleLeave = (e) => {
+        e.target.style.backgroundImage = 'Linear-Gradient(#EEC13F 0%, #FFAC38 100%)'
+    }
+
     return (
         <div style={{
             padding: '0em 150px 0em 150px'
@@ -80,7 +89,7 @@ const TreeGraph = ({ }) => {
                         paddingBottom: '1em',
                         fontSize: '16px',
                         border: 'none'
-                    }}>
+                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
                         View
                     </button>
                 </div>}>
@@ -122,7 +131,7 @@ const TreeGraph = ({ }) => {
                         paddingBottom: '1em',
                         fontSize: '16px',
                         border: 'none'
-                    }}>
+                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
                         View
                     </button>
                 </div>}>
@@ -164,7 +173,7 @@ const TreeGraph = ({ }) => {
                         paddingBottom: '1em',
                         fontSize: '16px',
                         border: 'none'
-                    }}>
+                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
                         View
                     </button>
                 </div>}>
@@ -206,7 +215,7 @@ const TreeGraph = ({ }) => {
                         paddingBottom: '1em',
                         fontSize: '16px',
                         border: 'none'
-                    }}>
+                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
                         View
                     </button>
                 </div>}>
@@ -248,7 +257,7 @@ const TreeGraph = ({ }) => {
                         paddingBottom: '1em',
                         fontSize: '16px',
                         border: 'none'
-                    }}>
+                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
                         View
                     </button>
                 </div>}>
