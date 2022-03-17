@@ -15,7 +15,9 @@ const Roadmap = ({ }) => {
     }, [])
 
     return (
-        <div style={{ position: 'relative', maxWidth: '1903px', width: 'auto', margin: 'auto' }}>
+        <div
+            className='roadmap'
+            style={{ position: 'relative', maxWidth: '1903px', width: 'auto', margin: 'auto' }}>
             <div style={{
                 position: 'relative',
                 display: 'inline',

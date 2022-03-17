@@ -3,6 +3,7 @@ import icon from '../assets/img/vector2.png'
 import Roadmap from "./subScreen3/Roadmap"
 import aos from 'aos'
 import { useEffect } from 'react'
+import RoadmapMobile from "./subScreen3/RoadmapMobile"
 
 const Screen3 = ({ }) => {
 
@@ -13,32 +14,38 @@ const Screen3 = ({ }) => {
     }, [])
 
     return (
-        <div>
+        <div style={{
+            zIndex: 1,
+            marginBottom: '100px'
+        }}>
             <div
+                id='top-content-3'
                 data-aos="fade"
                 style={{
-                    marginTop: '300px',
+
                     display: 'flex',
                     flexDirection: 'row',
                     justifyContent: 'center',
-                    marginBottom: '400px'
                 }}>
-                <p style={{
-                    fontWeight: 700,
-                    fontSize: '100px',
-                    color: '#EEC13F'
-                }}>
+                <p
+                    className="screen2-title"
+                    style={{
+                        fontWeight: 700,
+                        color: '#EEC13F'
+                    }}>
                     ROADMAP
                 </p>
-                <Image src={icon}
-                    width={90}
-                    preview={false}
-                    style={{
-                        marginLeft: '20px',
-                        marginTop: '40px'
-                    }} />
+                <div className="icon">
+                    <Image src={icon}
+                        preview={false}
+                        style={{
+                            marginLeft: '15px',
+                            marginTop: '15px'
+                        }} />
+                </div>
             </div>
             <Roadmap />
+            <RoadmapMobile/>
         </div>
     )
 }

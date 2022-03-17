@@ -1,5 +1,6 @@
 import { Carousel } from '3d-react-carousal';
 import { members } from '../assets/member';
+import { membersMobile } from '../assets/memberMobile';
 import aos from 'aos'
 import { useEffect } from 'react'
 
@@ -12,26 +13,32 @@ const Screen5 = ({ }) => {
     }, [])
 
     return (
-        <div>
+        <div  style={{
+            zIndex: 2,
+            position: 'relative'
+        }}>
             <div
+                id='top-content-5'
                 data-aos="fade"
                 style={{
-                    marginTop: '300px',
                     display: 'flex',
                     flexDirection: 'row',
                     justifyContent: 'center',
-                    marginBottom: '50px'
                 }}>
-                <p style={{
+                <p 
+                className='screen2-title'
+                style={{
                     fontWeight: 'bold',
-                    fontSize: '100px',
                     color: '#EEC13F'
                 }}>
                     OUR TEAM
                 </p>
             </div>
-            <div>
+            <div className='member'>
                 <Carousel slides={members} />
+            </div>
+            <div className='member-mobile'>
+                <Carousel slides={membersMobile} />
             </div>
         </div>
     )

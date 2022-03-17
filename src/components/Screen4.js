@@ -16,73 +16,129 @@ const Screen4 = ({ }) => {
     }, [])
 
     return (
-        <div>
+        <div style={{
+            zIndex: 1
+        }}>
             <div
+                id='top-content-3'
                 data-aos="fade"
                 style={{
                     display: 'flex',
                     flexDirection: 'row',
                     justifyContent: 'center',
-                    marginBottom: '200px'
                 }}>
-                <p style={{
-                    fontWeight: 'bold',
-                    fontSize: '100px',
-                    color: '#EEC13F'
-                }}>
+                <p
+                    className="screen2-title"
+                    style={{
+                        fontWeight: 'bold',
+                        color: '#EEC13F'
+                    }}>
                     PARTNERS
                 </p>
             </div>
-            <div style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'space-evenly',
+            <div className="partner">
+                <div
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'row',
+                        justifyContent: 'space-evenly',
 
-            }}>
-                <div className="logo">
-                    <Image src={notional} preview={false} width={150} style={{
-                        border: 'solid 1px white',
-                        borderRadius: '10px'
-                    }} />
-                    <span style={{
-                        marginLeft: '20px'
                     }}>
-                        <Image src={notional2} preview={false} width={300} />
-                    </span>
-                </div>
-                <div className="logo">
-                    <Image src={dfi} preview={false} width={500} />
+                    <div className="logo">
+                        <Image src={notional} preview={false} width={150} style={{
+                            border: 'solid 1px white',
+                            borderRadius: '10px'
+                        }} />
+                        <span style={{
+                            marginLeft: '20px'
+                        }}>
+                            <Image src={notional2} preview={false} width={300} />
+                        </span>
+                    </div>
+                    <div className="logo">
+                        <Image src={dfi} preview={false} width={500} />
+                    </div>
                 </div>
             </div>
-            <div style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center',
-                marginBottom: '100px',
-                marginTop: '200px'
-            }}>
-                <p style={{
-                    fontWeight: 'bold',
-                    fontSize: '64px',
-                    color: '#EEC13F'
+            <div className="partner-mobile">
+                <div
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'space-evenly',
+                        margin: 'auto'
+                    }}>
+                    <div className="logo" style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        marginBottom: '50px'
+                    }}>
+                        <Image src={notional} preview={false} width={'20%'} style={{
+                            border: 'solid 1px white',
+                            borderRadius: '10px'
+                        }} />
+                        <span style={{
+                            margin: 'auto 0'
+                        }}>
+                            <Image src={notional2} preview={false} width={'80%'} />
+                        </span>
+                    </div>
+                    <div className="logo">
+                        <Image src={dfi} preview={false} width={'70%'} />
+                    </div>
+                </div>
+            </div>
+            <div
+                id='top-content-4'
+                style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
                 }}>
+                <p
+                    className="screen2-title"
+                    style={{
+                        fontWeight: 'bold',
+                        color: '#EEC13F'
+                    }}>
                     DEX
                 </p>
             </div>
-            <div style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'space-evenly',
+            <div className="partner">
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'space-evenly',
 
-            }}>
-                <div className="logo">
-                    <Image src={osmosis} preview={false} width={500} />
-                </div>
-                <div className="logo">
-                    <Image src={juno} preview={false} width={200} />
+                }}>
+                    <div className="logo">
+                        <Image src={osmosis} preview={false} width={500} />
+                    </div>
+                    <div className="logo">
+                        <Image src={juno} preview={false} width={200} />
+                    </div>
                 </div>
             </div>
-        </div>
+            <div className="partner-mobile">
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'space-evenly',
+
+                }}>
+                    <div className="logo" style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        marginBottom: '50px'
+                    }}>
+                        <Image src={osmosis} preview={false} width={'70%'} />
+                    </div>
+                    <div className="logo">
+                        <Image src={juno} preview={false} width={'50%'} />
+                    </div>
+                </div>
+            </div>
+        </div >
     )
 }
 
