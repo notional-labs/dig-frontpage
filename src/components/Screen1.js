@@ -23,7 +23,7 @@ const style = {
     }
 }
 
-const Screen1 = ({}) => {
+const Screen1 = ({ }) => {
 
     useEffect(() => {
         aos.init({
@@ -45,27 +45,26 @@ const Screen1 = ({}) => {
             <Image
                 data-aos="fade-down"
                 src={title}
-                width={600}
+                width={'40%'}
                 preview={false}
             />
-            <p style={{
-                fontWeight: 700,
-                fontSize: '44px',
-                color: '#EEC13F',
-                marginTop: '50px'
-            }}>
+            <p
+                className='screen1-title'
+                style={{
+                    fontWeight: 700,
+                    color: '#EEC13F',
+                    marginTop: '50px'
+                }}>
                 Tokenized real estate on the Cosmos Network
             </p>
-            <p style={{
-                fontWeight: 400,
-                fontSize: '20px',
-                color: '#ffffff',
-                marginTop: '50px',
-                padding: 250,
-                paddingTop: 0,
-                paddingBottom: 0
-            }}>
-                Dig will create IBC-compatible real estate and apply Cosmos governance to real world projects. It's compatible with many legal regimes because it’s going to break the network into smaller, jurisdictionally compliant chains.
+            <p
+                className='screen1-content'
+                style={{
+                    fontWeight: 400,
+                    color: '#ffffff',
+                    marginTop: '50px',
+                }}>
+                Dig will create IBC-compatible real estate and apply Cosmos governance to real world projects. It's compatible with many legal regimes because it's going to break the network into smaller, jurisdictionally compliant chains.
             </p>
             <div style={{
                 marginTop: '50px'

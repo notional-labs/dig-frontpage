@@ -27,9 +27,11 @@ const TreeGraph = ({ }) => {
     }
 
     return (
-        <div style={{
-            padding: '0em 150px 0em 150px'
-        }}>
+        <div
+            className='tree'
+            style={{
+                padding: '0px 5% 0px 5%'
+            }}>
             <Tree
                 lineWidth={'2px'}
                 lineHeight={'130px'}

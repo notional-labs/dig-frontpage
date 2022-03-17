@@ -17,60 +17,123 @@ const Screen6 = ({ }) => {
 
     return (
         <div style={{
-            paddingLeft: '200px',
-            paddingRight: '200px'
+            zIndex: 1,
+            position: 'relative'
         }}>
             <div
+                id='top-content-6'
                 data-aos="fade"
                 style={{
-                    marginTop: '300px',
                     display: 'flex',
                     flexDirection: 'row',
                     justifyContent: 'center',
-                    marginBottom: '50px'
                 }}>
-                <p style={{
-                    fontWeight: 'bold',
-                    fontSize: '64px',
-                    color: '#EEC13F'
-                }}>
+                <p
+                    className='screen2-title'
+                    style={{
+                        fontWeight: 'bold',
+                        color: '#EEC13F'
+                    }}>
                     Follow us on
                 </p>
             </div>
-            <div style={{
-                display: 'flex',
-                justifyContent: 'space-evenly'
-            }}>
-                <a
-                    data-aos="zoom-in"
-                    data-aos-delay="500"
-                    href='https://github.com/notional-labs/'
-                    target={'_blank'}>
-                    <Image src={github} preview={false} width={120} />
-                </a>
-                <a
-                    data-aos="zoom-in"
-                    data-aos-delay="1000"
-                    href='https://t.me/digchain_official'
-                    target={'_blank'}>
-                    <Image src={tele} preview={false} width={120} />
-                </a>
-                <a
-                    data-aos="zoom-in"
-                    data-aos-delay="1500"
-                    href='https://twitter.com/Dig_Chain'
-                    target={'_blank'}>
-                    <Image src={twitter} preview={false} width={120} />
-                </a>
-                <a
-                    data-aos="zoom-in"
-                    data-aos-delay="2000"
-                    href='https://discord.gg/R44XTwfbmU' 
-                    target={'_blank'}>
-                    <Image src={dis} preview={false} style={{
-                        borderRadius: '50%'
-                    }} width={120} />
-                </a>
+            <div className="contact">
+                <div style={{
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-delay="500"
+                        href='https://github.com/notional-labs/'
+                        target={'_blank'}
+                        style={{
+                            margin: '0 25px 0 25px'
+                        }}>
+                        <Image src={github} preview={false} width={120} />
+                    </a>
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-delay="1000"
+                        href='https://t.me/digchain_official'
+                        target={'_blank'}
+                        style={{
+                            margin: '0 25px 0 25px'
+                        }}>
+                        <Image src={tele} preview={false} width={120} />
+                    </a>
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-delay="1500"
+                        href='https://twitter.com/Dig_Chain'
+                        target={'_blank'}
+                        style={{
+                            margin: '0 25px 0 25px'
+                        }}>
+                        <Image src={twitter} preview={false} width={120} />
+                    </a>
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-delay="2000"
+                        href='https://discord.gg/R44XTwfbmU'
+                        target={'_blank'}
+                        style={{
+                            margin: '0 25px 0 25px'
+                        }}>
+                        <Image src={dis} preview={false} style={{
+                            borderRadius: '50%'
+                        }} width={120} />
+                    </a>
+                </div>
+            </div>
+            <div className="contact-mobile">
+                <div style={{
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-delay="500"
+                        href='https://github.com/notional-labs/'
+                        target={'_blank'}
+                        style={{
+                            margin: '0 5% 0 5%'
+                        }}>
+                        <Image src={github} preview={false} width={50} />
+                    </a>
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-delay="1000"
+                        href='https://t.me/digchain_official'
+                        target={'_blank'}
+                        style={{
+                            margin: '0 5% 0 5%'
+                        }}>
+                        <Image src={tele} preview={false} width={50} />
+                    </a>
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-delay="1500"
+                        href='https://twitter.com/Dig_Chain'
+                        target={'_blank'}
+                        style={{
+                            margin: '0 5% 0 5%'
+                        }}>
+                        <Image src={twitter} preview={false} width={50} />
+                    </a>
+                    <a
+                        data-aos="zoom-in"
+                        data-aos-delay="2000"
+                        href='https://discord.gg/R44XTwfbmU'
+                        target={'_blank'}
+                        style={{
+                            margin: '0 5% 0 5%'
+                        }}>
+                        <Image src={dis} preview={false} style={{
+                            borderRadius: '50%'
+                        }} width={50} />
+                    </a>
+                </div>
             </div>
         </div>
     )
