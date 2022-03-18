@@ -3,7 +3,7 @@ import { Image } from "antd"
 import dig from '../../assets/img/dig.png'
 import uk from '../../assets/img/uk.png'
 import thai from '../../assets/img/thai.png'
-import cayman from '../../assets/img/cayman.png'
+import bvi from '../../assets/img/bvi.png'
 import ukraine from '../../assets/img/ukraine.png'
 import vietnam from '../../assets/img/vietnam.png'
 import aos from 'aos'
@@ -149,7 +149,7 @@ const TreeGraph = ({ }) => {
                             borderRadius: '50%',
                             display: 'inline-block'
                         }}>
-                        <Image src={cayman}
+                        <Image src={bvi}
                             preview={false}
                             width={170}
                             style={{
@@ -164,7 +164,7 @@ const TreeGraph = ({ }) => {
                         fontSize: '24px',
                         marginTop: '50px'
                     }}>
-                        Dig Cayman
+                        Dig BVI
                     </p>
                     <button style={{
                         color: '#ffffff',

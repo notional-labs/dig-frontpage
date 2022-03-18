@@ -2,7 +2,7 @@ import { Image } from "antd"
 import dig from '../../assets/img/dig.png'
 import uk from '../../assets/img/uk.png'
 import thai from '../../assets/img/thai.png'
-import cayman from '../../assets/img/cayman.png'
+import bvi from '../../assets/img/bvi.png'
 import ukraine from '../../assets/img/ukraine.png'
 import vietnam from '../../assets/img/vietnam.png'
 
@@ -149,7 +149,7 @@ const TreeMobile = ({ }) => {
                         display: 'inline-block',
                         margin: 'auto'
                     }}>
-                    <Image src={cayman}
+                    <Image src={bvi}
                         preview={false}
                         width={60}
                         style={{
@@ -164,7 +164,7 @@ const TreeMobile = ({ }) => {
                     fontSize: '24px',
                     margin: 'auto'
                 }}>
-                    Dig Cayman
+                    Dig BVI
                 </p>
                 <button style={{
                     color: '#ffffff',
