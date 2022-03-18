@@ -4,7 +4,6 @@
   min-height: 1000vh;
   height: auto;
   padding: 0;
-  padding-bottom: 400px;
 }
 
 .App-logo {
@@ -35,7 +34,7 @@
   filter: grayscale(0%)
 }
 
-.effect {
+.glow {
   background: radial-gradient(circle farthest-side, #EEC13F 0%, rgba(0, 0, 0, 0) 100%);
 }
 
@@ -201,7 +200,7 @@ div.react-3d-carousel div.slider-container div.slider-content div.slider-single 
   }
 
   #top-content-6 {
-    margin-top: 500px;
+    margin-top: 300px;
     margin-bottom: 30px;
   }
 
@@ -214,6 +213,9 @@ div.react-3d-carousel div.slider-container div.slider-content div.slider-single 
   }
 
   .member {
+    display: none;
+  }
+  .effect {
     display: none;
   }
 }
@@ -244,6 +246,9 @@ div.react-3d-carousel div.slider-container div.slider-content div.slider-single 
   }
 
   .member-mobile {
+    display: none;
+  }
+  .effect-mobile {
     display: none;
   }
 }

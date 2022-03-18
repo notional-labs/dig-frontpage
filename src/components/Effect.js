@@ -17,7 +17,7 @@ const Effect = ({x, y, radius, opacity}) => {
      
     return (
         <div style={style.div}>
-            <div className="effect" style={style.effect}>
+            <div className="glow" style={style.effect}>
 
             </div>
         </div>
