@@ -17,6 +17,7 @@ const Screen4 = ({ }) => {
 
     return (
         <div style={{
+            position: 'relative',
             zIndex: 1
         }}>
             <div
@@ -44,7 +45,9 @@ const Screen4 = ({ }) => {
                         justifyContent: 'space-evenly',
 
                     }}>
-                    <div className="logo">
+                    <div className="logo" style={{
+                        margin: 'auto 0'
+                    }}>
                         <Image src={notional} preview={false} width={150} style={{
                             border: 'solid 1px white',
                             borderRadius: '10px'

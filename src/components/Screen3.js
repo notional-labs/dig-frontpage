@@ -16,7 +16,6 @@ const Screen3 = ({ }) => {
     return (
         <div style={{
             zIndex: 1,
-            marginBottom: '100px'
         }}>
             <div
                 id='top-content-3'
