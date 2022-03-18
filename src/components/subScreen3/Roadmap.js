@@ -30,7 +30,7 @@ const Roadmap = ({ }) => {
                         position: 'absolute',
                         maxWidth: '15%',
                         top: `-4700%`,
-                        left: `10%`
+                        left: `6%`
                     }}>
                     <p style={{
                         color: '#EEC13F',
@@ -74,8 +74,8 @@ const Roadmap = ({ }) => {
                     style={{
                         position: 'absolute',
                         maxWidth: '15%',
-                        top: `-3300%`,
-                        left: `25%`
+                        top: `-4300%`,
+                        left: `20%`
                     }}>
                     <p style={{
                         color: '#EEC13F',
@@ -119,7 +119,7 @@ const Roadmap = ({ }) => {
                     style={{
                         position: 'absolute',
                         maxWidth: '15%',
-                        top: `-3800%`,
+                        top: `-3600%`,
                         left: `40%`
                     }}>
                     <p style={{
