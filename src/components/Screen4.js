@@ -4,6 +4,8 @@ import osmosis from '../assets/img/osmosis.png'
 import juno from '../assets/img/juno.png'
 import notional from '../assets/img/notional.png'
 import notional2 from '../assets/img/notional2.png'
+import blurt from '../assets/img/blurt.png'
+import blurt2 from '../assets/img/blurt2.png'
 import aos from 'aos'
 import { useEffect } from 'react'
 
@@ -48,10 +50,7 @@ const Screen4 = ({ }) => {
                     <div className="logo" style={{
                         margin: 'auto 0'
                     }}>
-                        <Image src={notional} preview={false} width={150} style={{
-                            border: 'solid 1px white',
-                            borderRadius: '10px'
-                        }} />
+                        <Image src={notional} preview={false} width={150} />
                         <span style={{
                             marginLeft: '20px'
                         }}>
@@ -60,6 +59,16 @@ const Screen4 = ({ }) => {
                     </div>
                     <div className="logo">
                         <Image src={dfi} preview={false} width={500} />
+                    </div>
+                    <div className="logo" style={{
+                        margin: 'auto 0'
+                    }}>
+                        <Image src={blurt} preview={false} width={150} />
+                        <span style={{
+                            marginLeft: '20px'
+                        }}>
+                            <Image src={blurt2} preview={false} width={100} />
+                        </span>
                     </div>
                 </div>
             </div>
@@ -76,10 +85,7 @@ const Screen4 = ({ }) => {
                         justifyContent: 'center',
                         marginBottom: '50px'
                     }}>
-                        <Image src={notional} preview={false} width={'20%'} style={{
-                            border: 'solid 1px white',
-                            borderRadius: '10px'
-                        }} />
+                        <Image src={notional} preview={false} width={'20%'}/>
                         <span style={{
                             margin: 'auto 0'
                         }}>
@@ -88,6 +94,18 @@ const Screen4 = ({ }) => {
                     </div>
                     <div className="logo">
                         <Image src={dfi} preview={false} width={'70%'} />
+                    </div>
+                    <div className="logo" style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        marginBottom: '50px'
+                    }}>
+                        <Image src={blurt} preview={false} width={'20%'}/>
+                        <span style={{
+                            margin: 'auto 0'
+                        }}>
+                            <Image src={blurt2} preview={false} width={'80%'} />
+                        </span>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,10 @@
 import { Image } from "antd"
 import dig from '../../assets/img/dig.png'
 import uk from '../../assets/img/uk.png'
-import thai from '../../assets/img/thai.png'
+import florida from '../../assets/img/florida.png'
 import bvi from '../../assets/img/bvi.png'
 import ukraine from '../../assets/img/ukraine.png'
-import vietnam from '../../assets/img/vietnam.png'
+import texas from '../../assets/img/texas.png'
 
 const TreeMobile = ({ }) => {
 
@@ -74,18 +74,6 @@ const TreeMobile = ({ }) => {
                 }}>
                     Dig UK
                 </p>
-                <button style={{
-                    color: '#ffffff',
-                    borderRadius: '10px',
-                    backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                    padding: '10px 20px 10px 20px',
-                    fontSize: '24px',
-                    border: 'none',
-                    margin: 'auto',
-                    height: '100%'
-                }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                    View
-                </button>
             </div>
             <div style={{
                 display: 'flex',
@@ -103,7 +91,7 @@ const TreeMobile = ({ }) => {
                         display: 'inline-block',
                         margin: 'auto'
                     }}>
-                    <Image src={thai}
+                    <Image src={florida}
                         preview={false}
                         width={60}
                         style={{
@@ -118,20 +106,8 @@ const TreeMobile = ({ }) => {
                     fontSize: '24px',
                     margin: 'auto'
                 }}>
-                    Dig Thailand
+                    Dig Florida
                 </p>
-                <button style={{
-                    color: '#ffffff',
-                    borderRadius: '10px',
-                    backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                    padding: '10px 20px 10px 20px',
-                    fontSize: '24px',
-                    border: 'none',
-                    margin: 'auto',
-                    height: '100%'
-                }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                    View
-                </button>
             </div>
             <div style={{
                 display: 'flex',
@@ -166,18 +142,6 @@ const TreeMobile = ({ }) => {
                 }}>
                     Dig BVI
                 </p>
-                <button style={{
-                    color: '#ffffff',
-                    borderRadius: '10px',
-                    backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                    padding: '10px 20px 10px 20px',
-                    fontSize: '24px',
-                    border: 'none',
-                    margin: 'auto',
-                    height: '100%'
-                }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                    View
-                </button>
             </div>
             <div style={{
                 display: 'flex',
@@ -212,18 +176,6 @@ const TreeMobile = ({ }) => {
                 }}>
                     Dig Ukraine
                 </p>
-                <button style={{
-                    color: '#ffffff',
-                    borderRadius: '10px',
-                    backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                    padding: '10px 20px 10px 20px',
-                    fontSize: '24px',
-                    border: 'none',
-                    margin: 'auto',
-                    height: '100%'
-                }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                    View
-                </button>
             </div>
             <div style={{
                 display: 'flex',
@@ -241,7 +193,7 @@ const TreeMobile = ({ }) => {
                         display: 'inline-block',
                         margin: 'auto'
                     }}>
-                    <Image src={vietnam}
+                    <Image src={texas}
                         preview={false}
                         width={60}
                         style={{
@@ -256,20 +208,8 @@ const TreeMobile = ({ }) => {
                     fontSize: '24px',
                     margin: 'auto'
                 }}>
-                    Dig Vietnam
+                    Dig Texas
                 </p>
-                <button style={{
-                    color: '#ffffff',
-                    borderRadius: '10px',
-                    backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                    padding: '10px 20px 10px 20px',
-                    fontSize: '24px',
-                    border: 'none',
-                    margin: 'auto',
-                    height: '100%'
-                }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                    View
-                </button>
             </div>
         </div>
     )

@@ -29,7 +29,7 @@ const MainPage = () => {
                         Github
                     </li>
                 </a>
-                <a href='https://twitter.com/Dig_Chain'
+                <a href='http://medium.com/@digchain_official'
                     target='_blank'
                     rel="noreferrer"
                     style={{
@@ -63,6 +63,18 @@ const MainPage = () => {
                 >
                     <li>
                         Discord
+                    </li>
+                </a>
+                <a href='https://docs.google.com/spreadsheets/d/14p0XqHbDTS7H3SKVeEx72FKjhQUii6XrwdXAOuzP73w/edit?usp=sharing'
+                    target='_blank'
+                    rel="noreferrer"
+                    style={{
+                        color: '#ffffff',
+                        textDecoration: 'none'
+                    }}
+                >
+                    <li>
+                        Tokenomics
                     </li>
                 </a>
             </ul>

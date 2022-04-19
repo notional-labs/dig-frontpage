@@ -61,7 +61,7 @@ const Screen2 = ({ }) => {
             <p
                 className='screen2-content'
                 data-aos="fade"
-                data-aos-delay="1000"
+                data-aos-delay="500"
                 style={{
                     fontWeight: 400,
                     color: '#ffffff',
@@ -72,7 +72,7 @@ const Screen2 = ({ }) => {
             <p
                 className='screen2-content'
                 data-aos="fade"
-                data-aos-delay="1200"
+                data-aos-delay="500"
                 style={{
                     fontWeight: 400,
                     color: '#ffffff',

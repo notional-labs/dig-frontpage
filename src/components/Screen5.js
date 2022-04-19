@@ -15,7 +15,8 @@ const Screen5 = ({ }) => {
     return (
         <div  style={{
             zIndex: 2,
-            position: 'relative'
+            position: 'relative',
+            height: '100vh'
         }}>
             <div
                 id='top-content-5'
@@ -35,10 +36,10 @@ const Screen5 = ({ }) => {
                 </p>
             </div>
             <div className='member'>
-                <Carousel slides={members} />
+                <Carousel slides={members} autoplay={true} interval={5000} arrows={false}/>
             </div>
             <div className='member-mobile'>
-                <Carousel slides={membersMobile} />
+                <Carousel slides={membersMobile} autoplay={true} interval={5000} arrows={false}/>
             </div>
         </div>
     )

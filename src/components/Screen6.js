@@ -18,7 +18,8 @@ const Screen6 = ({ }) => {
     return (
         <div style={{
             zIndex: 1,
-            position: 'relative'
+            position: 'relative',
+            marginTop: '200px'
         }}>
             <div
                 id='top-content-6'
@@ -45,7 +46,7 @@ const Screen6 = ({ }) => {
                     <a
                         data-aos="zoom-in"
                         data-aos-delay="500"
-                        href='https://github.com/notional-labs/'
+                        href='https://github.com/notional-labs/dig'
                         target={'_blank'}
                         style={{
                             margin: '0 25px 0 25px'

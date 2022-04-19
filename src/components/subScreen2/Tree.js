@@ -2,10 +2,10 @@ import { Tree, TreeNode } from 'react-organizational-chart';
 import { Image } from "antd"
 import dig from '../../assets/img/dig.png'
 import uk from '../../assets/img/uk.png'
-import thai from '../../assets/img/thai.png'
+import florida from '../../assets/img/florida.png'
 import bvi from '../../assets/img/bvi.png'
 import ukraine from '../../assets/img/ukraine.png'
-import vietnam from '../../assets/img/vietnam.png'
+import texas from '../../assets/img/texas.png'
 import aos from 'aos'
 import { useEffect } from 'react'
 
@@ -82,18 +82,6 @@ const TreeGraph = ({ }) => {
                     }}>
                         Dig UK
                     </p>
-                    <button style={{
-                        color: '#ffffff',
-                        borderRadius: '10px',
-                        backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                        padding: '2em',
-                        paddingTop: '1em',
-                        paddingBottom: '1em',
-                        fontSize: '16px',
-                        border: 'none'
-                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                        View
-                    </button>
                 </div>}>
 
                 </TreeNode>
@@ -107,7 +95,7 @@ const TreeGraph = ({ }) => {
                             borderRadius: '50%',
                             display: 'inline-block'
                         }}>
-                        <Image src={thai}
+                        <Image src={florida}
                             preview={false}
                             width={170}
                             style={{
@@ -122,20 +110,8 @@ const TreeGraph = ({ }) => {
                         fontSize: '24px',
                         marginTop: '50px'
                     }}>
-                        Dig Thailand
+                        Dig Florida
                     </p>
-                    <button style={{
-                        color: '#ffffff',
-                        borderRadius: '10px',
-                        backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                        padding: '2em',
-                        paddingTop: '1em',
-                        paddingBottom: '1em',
-                        fontSize: '16px',
-                        border: 'none'
-                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                        View
-                    </button>
                 </div>}>
 
                 </TreeNode>
@@ -166,18 +142,6 @@ const TreeGraph = ({ }) => {
                     }}>
                         Dig BVI
                     </p>
-                    <button style={{
-                        color: '#ffffff',
-                        borderRadius: '10px',
-                        backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                        padding: '2em',
-                        paddingTop: '1em',
-                        paddingBottom: '1em',
-                        fontSize: '16px',
-                        border: 'none'
-                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                        View
-                    </button>
                 </div>}>
 
                 </TreeNode>
@@ -208,18 +172,6 @@ const TreeGraph = ({ }) => {
                     }}>
                         Dig Ukraine
                     </p>
-                    <button style={{
-                        color: '#ffffff',
-                        borderRadius: '10px',
-                        backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                        padding: '2em',
-                        paddingTop: '1em',
-                        paddingBottom: '1em',
-                        fontSize: '16px',
-                        border: 'none'
-                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                        View
-                    </button>
                 </div>}>
 
                 </TreeNode>
@@ -233,7 +185,7 @@ const TreeGraph = ({ }) => {
                             borderRadius: '50%',
                             display: 'inline-block'
                         }}>
-                        <Image src={vietnam}
+                        <Image src={texas}
                             preview={false}
                             width={170}
                             style={{
@@ -248,20 +200,8 @@ const TreeGraph = ({ }) => {
                         fontSize: '24px',
                         marginTop: '50px'
                     }}>
-                        Dig Vietnam
+                        Dig Texas
                     </p>
-                    <button style={{
-                        color: '#ffffff',
-                        borderRadius: '10px',
-                        backgroundImage: 'Linear-Gradient(#EEC13F 0%,#FFAC38 100%)',
-                        padding: '2em',
-                        paddingTop: '1em',
-                        paddingBottom: '1em',
-                        fontSize: '16px',
-                        border: 'none'
-                    }} onMouseOver={handleEnter} onMouseLeave={handleLeave}>
-                        View
-                    </button>
                 </div>}>
 
                 </TreeNode>
