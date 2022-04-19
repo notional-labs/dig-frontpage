@@ -251,7 +251,7 @@ export const membersMobile = [
                     fontWeight: 400,
                     textAlign: 'center'
                 }}>
-                    SERVER TECHNICIAN ANDCUSTOMER ENGINEER
+                    SERVER TECHNICIAN AND CUSTOMER ENGINEER
                 </p>
             </div>
         </div>
