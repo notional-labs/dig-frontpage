@@ -1,5 +1,4 @@
 import { Image } from "antd"
-import dfi from '../assets/img/dfi.png'
 import osmosis from '../assets/img/osmosis.png'
 import juno from '../assets/img/juno.png'
 import notional from '../assets/img/notional.png'
@@ -57,9 +56,6 @@ const Screen4 = ({ }) => {
                             <Image src={notional2} preview={false} width={300} />
                         </span>
                     </div>
-                    <div className="logo">
-                        <Image src={dfi} preview={false} width={500} />
-                    </div>
                     <div className="logo" style={{
                         margin: 'auto 0'
                     }}>
@@ -91,9 +87,6 @@ const Screen4 = ({ }) => {
                         }}>
                             <Image src={notional2} preview={false} width={'80%'} />
                         </span>
-                    </div>
-                    <div className="logo">
-                        <Image src={dfi} preview={false} width={'70%'} />
                     </div>
                     <div className="logo" style={{
                         display: 'flex',

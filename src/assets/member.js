@@ -3,11 +3,12 @@ import jacob from '../assets/img/members/jacob.jpg'
 import khanh from '../assets/img/members/khanh.jpeg'
 import ricardo from '../assets/img/members/ricardo.jpg'
 import billy from '../assets/img/members/billy.png'
-import long from '../assets/img/members/long.jpg'
+import long from '../assets/img/members/long.png'
 import son from '../assets/img/members/son.jpg'
 import vuong from '../assets/img/members/vuong.png'
 import minh from '../assets/img/members/minh.jpg'
-import vinh from '../assets/img/members/vinh.jpg'
+import vinh from '../assets/img/members/vinh.png'
+import du from '../assets/img/members/du.png'
 import { Image } from 'antd';
 
 export const members = [
@@ -360,6 +361,42 @@ export const members = [
                     color: '#ffffff'
                 }}>
                     Vinh is the project manager.
+                </p>
+            </div>
+        </div>
+    ),
+    (
+        <div>
+            <div style={{
+                width: '500px'
+            }}>
+                <Image src={du} width={'500px'} preview={false} style={{
+                    borderRadius: '20px'
+                }} />
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 700,
+                    marginTop: '20px',
+                    textAlign: 'left'
+                }}>
+                    Du Lich
+                </p>
+                <p style={{
+                    color: '#EEC13F',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    textAlign: 'left'
+                }}>
+                    INFRASTRUCTURE
+                </p>
+                <p style={{
+                    fontSize: '16px',
+                    fontWeight: 400,
+                    textAlign: 'left',
+                    color: '#ffffff'
+                }}>
+                    Du is a very talented infrastructure engineer
                 </p>
             </div>
         </div>
