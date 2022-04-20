@@ -316,7 +316,7 @@ export const members = [
                     fontWeight: 400,
                     textAlign: 'left'
                 }}>
-                    SERVER TECHNICIAN ANDCUSTOMER ENGINEER
+                    SERVER TECHNICIAN AND CUSTOMER ENGINEER
                 </p>
                 <p style={{
                     fontSize: '16px',
