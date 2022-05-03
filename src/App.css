@@ -137,6 +137,10 @@ div.react-3d-carousel div.slider-container div.slider-content div.slider-single 
 
 }
 
+.member {
+  display: block;
+}
+
 .member-mobile {
   display: block;
 }

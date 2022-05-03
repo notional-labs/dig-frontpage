@@ -16,7 +16,6 @@ const Screen5 = ({ }) => {
         <div  style={{
             zIndex: 2,
             position: 'relative',
-            height: '100vh'
         }}>
             <div
                 id='top-content-5'

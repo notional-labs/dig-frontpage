@@ -74,7 +74,7 @@ const Screen1 = ({ }) => {
                         Open dApp
                     </button>
                 </a>
-                <a href="https://github.com/notional-labs/dig/blob/master/docs/whitepaper.md" target={'_blank'}>
+                <a href="https://drive.google.com/file/d/1NeaNBXFFCSLl9Q6ckCNqT2WhZEi8_lRN/view" target={'_blank'}>
                     <button style={style.button} className="hover-button" onMouseOver={handleEnter} onMouseLeave={handleLeave}>
                         White paper
                     </button>
