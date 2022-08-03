@@ -122,41 +122,6 @@ export const members = [
             <div style={{
                 width: '500px'
             }}>
-                <Image src={ricardo} width={'500px'} preview={false} style={{
-                    borderRadius: '20px'
-                }} />
-                <p style={{
-                    color: '#EEC13F',
-                    fontSize: '24px',
-                    fontWeight: 700,
-                    marginTop: '20px',
-                    textAlign: 'left'
-                }}>
-                    RICARDO FERREIRA
-                </p>
-                <p style={{
-                    color: '#EEC13F',
-                    fontSize: '24px',
-                    fontWeight: 400,
-                    textAlign: 'left'
-                }}>
-                    COMMUNITY AND OPERATIONS
-                </p>
-                <p style={{
-                    fontSize: '16px',
-                    fontWeight: 400,
-                    textAlign: 'left',
-                    color: '#ffffff'
-                }}>
-                    Ricardo is responsible for managing and growing the Dig Chain community. He takes his experience from Blurt and other projects to help oversee ops for Dig.
-                </p>
-            </div>
-        </div>
-    ), (
-        <div>
-            <div style={{
-                width: '500px'
-            }}>
                 <Image src={billy} width={'500px'} preview={false} style={{
                     borderRadius: '20px'
                 }} />
